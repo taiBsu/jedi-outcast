@@ -13,7 +13,7 @@
 ** QGL_Init() - loads libraries, assigns function pointers, etc.
 ** QGL_Shutdown() - unloads libraries, NULLs function pointers
 */
-#include <float.h>
+#include <cfloat>
 #include "../renderer/tr_local.h"
 #include "glw_win.h"
 
@@ -44,7 +44,7 @@ int  ( WINAPI * qwglGetLayerPaletteEntries)(HDC, int, int, int,
 BOOL ( WINAPI * qwglRealizeLayerPalette)(HDC, int, BOOL);
 BOOL ( WINAPI * qwglSwapLayerBuffers)(HDC, UINT);
 
-void ( APIENTRY * qglAccum )(GLenum op, GLfloat value);
+void ( APIENTRY * glAccum )(GLenum op, GLfloat value);
 void ( APIENTRY * qglAlphaFunc )(GLenum func, GLclampf ref);
 GLboolean ( APIENTRY * qglAreTexturesResident )(GLsizei n, const GLuint *textures, GLboolean *residences);
 void ( APIENTRY * qglArrayElement )(GLint i);

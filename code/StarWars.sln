@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "game", "game\game.vcxproj", "{0214D110-4F85-4253-9B28-0C73D05B3E97}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "starwars", "starwars.vcxproj", "{A0E75F94-F6D0-45C6-91A1-25D5C3BA6037}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		FinalBuild|x86 = FinalBuild|x86
+		Release|x86 = Release|x86
+		SHDebug|x86 = SHDebug|x86
+		Template|x86 = Template|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0214D110-4F85-4253-9B28-0C73D05B3E97}.Debug|x86.ActiveCfg = Debug|Win32
+		{0214D110-4F85-4253-9B28-0C73D05B3E97}.Debug|x86.Build.0 = Debug|Win32
+		{0214D110-4F85-4253-9B28-0C73D05B3E97}.FinalBuild|x86.ActiveCfg = FinalBuild|Win32
+		{0214D110-4F85-4253-9B28-0C73D05B3E97}.FinalBuild|x86.Build.0 = FinalBuild|Win32
+		{0214D110-4F85-4253-9B28-0C73D05B3E97}.Release|x86.ActiveCfg = Release|Win32
+		{0214D110-4F85-4253-9B28-0C73D05B3E97}.Release|x86.Build.0 = Release|Win32
+		{0214D110-4F85-4253-9B28-0C73D05B3E97}.SHDebug|x86.ActiveCfg = SHDebug|Win32
+		{0214D110-4F85-4253-9B28-0C73D05B3E97}.SHDebug|x86.Build.0 = SHDebug|Win32
+		{0214D110-4F85-4253-9B28-0C73D05B3E97}.Template|x86.ActiveCfg = Release|Win32
+		{0214D110-4F85-4253-9B28-0C73D05B3E97}.Template|x86.Build.0 = Release|Win32
+		{A0E75F94-F6D0-45C6-91A1-25D5C3BA6037}.Debug|x86.ActiveCfg = Debug|Win32
+		{A0E75F94-F6D0-45C6-91A1-25D5C3BA6037}.Debug|x86.Build.0 = Debug|Win32
+		{A0E75F94-F6D0-45C6-91A1-25D5C3BA6037}.FinalBuild|x86.ActiveCfg = FinalBuild|Win32
+		{A0E75F94-F6D0-45C6-91A1-25D5C3BA6037}.FinalBuild|x86.Build.0 = FinalBuild|Win32
+		{A0E75F94-F6D0-45C6-91A1-25D5C3BA6037}.Release|x86.ActiveCfg = Release|Win32
+		{A0E75F94-F6D0-45C6-91A1-25D5C3BA6037}.Release|x86.Build.0 = Release|Win32
+		{A0E75F94-F6D0-45C6-91A1-25D5C3BA6037}.SHDebug|x86.ActiveCfg = SHDebug|Win32
+		{A0E75F94-F6D0-45C6-91A1-25D5C3BA6037}.SHDebug|x86.Build.0 = SHDebug|Win32
+		{A0E75F94-F6D0-45C6-91A1-25D5C3BA6037}.Template|x86.ActiveCfg = Template|Win32
+		{A0E75F94-F6D0-45C6-91A1-25D5C3BA6037}.Template|x86.Build.0 = Template|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {587C0613-5080-4229-8C4A-A82AA945A017}
+	EndGlobalSection
+EndGlobal

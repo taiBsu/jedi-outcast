@@ -3,10 +3,10 @@
 //	-- jweier
 
 // this include must remain at the top of every Icarus CPP file
+#include "g_headers.h"
 #include "../game/g_local.h"
 #include "../game/q_shared.h"
 #include "icarus.h"
-#include "../game/g_headers.h"
 
 #include "assert.h"
 
